@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pending Payment</title>
+    <style>
+        .header{
+            display: flex;
+            justify-content: center;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 670px;
+        }
+        .text_center {
+            text-align: center;
+        }
+        .logo {
+            border: var(--border);
+        }
+        .table {
+            border: var(--border);
+        }
+        td img {
+            width: 100px;
+        }
+        th,td{
+            border: var(--border);
+            font-size: var(--default);
+            padding: var(--padding_table_box);
+        }
+        :root {
+            --primary_color: rgb(0, 0, 0);
+            --secondary_color: rgb(255, 255, 255);
+            --border: 0.5px solid black;
+            --padding_table_box: 2px 5px;
+            --h1_font : 17px;
+            --dashed_border : 0.5px dashed black;
+            --default: 15px;
+        }
+        .left{
+            text-align: left;
+        }
+        h1{
+            margin: 25px;
+            font-size: var(--h1_font);
+        }
+        .flex{
+            display: flex;
+            justify-content: space-between;
+        }
+        .justify{
+            text-align: justify;
+        }
+        .right{
+            text-align: right;
+            margin: 15px;
+        }
+        .right p{
+            margin:10px ;
+        }
+        .outer{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer">
+        <div class="container">
+            <header class="header">
+                <table class="text_center" style="border-collapse: collapse;">
+                    <tr>
+                        <td class="logo"><img src="/images/nidhi_software_logo.png" alt="nidhi"></td>
+                        <td>
+                            <table class="table" style="border-collapse: collapse;">
+                                <tr>
+                                    <th colspan="2">NIDHI SOFWARE PRO</th>
+                                </tr>
+                                <tr>
+                                    <td>REG. NO.</td>
+                                    <td>U65999BR2019PLC041305</td>
+                                </tr>
+                                <tr>
+                                    <td>Branch Name : </td>
+                                    <td>MUZAFFARPUR</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </header>
+            <main class="main">
+                <h1>Request the payment of personal loan</h1>
+                <div class="left">Date : <span>26/11/2022</span></div><br>
+                <div class="main_header">
+                    <div class="flex">
+                        <div class="box">
+                            <p>To,</p>
+                            <p>MD AFTAB ALI</p>
+                            <strong><P>S/D/W/O</strong> : <span>MD ALI RAZA</span></P>
+                            <strong><P>ADDRESS</strong> : <span>Majhaulia Sakra <br>Muzaffarpur Bihar 843104</span></P>
+                            <strong><p>City</strong> : <span>Muzaffarpur</span></p>
+                            <strong><p>State</strong> : <span>Bihar</span></p>
+                            <strong><p>Pincode</strong> : <span>843104</span></p>
+                        </div>
+                        <div class="box">
+                            <p>From,</p>
+                            <p>NIDHI SOFTWARE PRO</p>
+                            <strong><P>S/D/W/O</strong> : <span>MD ALI RAZA</span></P>
+                            <strong><P>ADDRESS</strong> : <span>Majhaulia Sakra <br>Muzaffarpur Bihar 843104</span></P>
+                            <strong><p>City</strong> : <span>Muzaffarpur</span></p>
+                            <strong><p>State</strong> : <span>Bihar</span></p>
+                            <strong><p>Pincode</strong> : <span>843104</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="body_mid" style="margin-bottom: 20px;">
+                    <h1 class="text_center">Subject : Request For Payment of a Loan.</h1>
+                    <p class="left">Dear <strong>Mr./Mrs MD AFTAB ALI</strong></p><br>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;This is to bring to your kind attention that you have still not made the payment against your loan date 15/05/2021 .</p>
+                    <br><p class="justify">We have sent you various correspondences regarding thesame, but till date, we have not got a single response from
+                        you. Therefore, we request you to please make the payment at the earliest; otherwise, we will be sorry to take a legal
+                        action against you.</p><br>
+                        <p class="justify">Please consider this letter as a reminder and make the payment as soon as possible. I am enclosing the details of
+                            your loan and its installments for your reference.</p>
+                </div>
+            </main>
+            <footer class="footer text_center">
+                <table>
+                    <tr>
+                        <td colspan="6" style="padding: 10px;"><strong>Loan Details</strong></td>
+                    </tr>
+                    <tr>
+                        <th>Branch</th>
+                        <td>Muzaffarpur</td>
+                        <th>Member No</th>
+                        <td>14706677</td>
+                        <th>Total Due EMI Amount</th>
+                        <td>11418.00</td>
+                    </tr>
+                    <tr>
+                        <th>Loan No</th>
+                        <td>00180100136</td>
+                        <th>Loan Product</th>
+                        <td>SAHAYAK LOAN</td>
+                        <th>Bounce Charges</th>
+                        <td>0.00</td>
+                    </tr>
+                    <tr>
+                        <th>Tenure</th>
+                        <td>52</td>
+                        <th>Inst. No</th>
+                        <td>17</td>
+                        <th>Penalty</th>
+                        <td>1004.00</td>
+                    </tr>
+                    <tr>
+                        <th>No of Paid Inst.</th>
+                        <td>16</td>
+                        <th>No. of Due Inst.</th>
+                        <td>33</td>
+                        <th>Overdue</th>
+                        <td>0.00</td>
+                    </tr>
+                    <tr>
+                        <th>Inst. Date</th>
+                        <td>26/11/2022</td>
+                        <th>EMI</th>
+                        <td>346</td>
+                        <th>TOTAL Due Amount</th>
+                        <td>12422.00</td>
+                    </tr>
+                    <tr>
+                        <th>Disbursement Date</th>
+                        <td>26/11/2022</td>
+                        <th>Foreclosure Amount</th>
+                        <td>13344.17</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </footer>
+            <div class="right">
+                <p>Yours Truly</p>
+                <p>NIDHI SOFTWARE PRO</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
